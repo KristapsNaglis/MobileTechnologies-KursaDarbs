@@ -64,7 +64,7 @@ html, body {
     line-height: 10vh;
 }
 
-.button:active{
+.button:hover{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
