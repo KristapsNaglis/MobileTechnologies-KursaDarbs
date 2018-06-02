@@ -1,0 +1,70 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "lv.naglis.kristaps"
+        }
+    }
+}
