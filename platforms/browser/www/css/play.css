@@ -1,4 +1,12 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
 html , body {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+
     background-color: #383838;
     color: white;
 
@@ -23,7 +31,7 @@ html , body {
 
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
-    font-size: 12em;
+    font-size: 5em;
 }
 
 .input {
@@ -42,7 +50,7 @@ html , body {
 
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
-    font-size: 8em;
+    font-size: 3em;
 }
 
 
@@ -57,7 +65,7 @@ html , body {
 
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
-    font-size: 8em;
+    font-size: 3em;
 
     border: none;
     border-bottom: 3px solid #787878;
@@ -82,11 +90,11 @@ html , body {
 }
 
 .button.one , .button [type=submit]{
-    width: 20vw;
+    width: 40vw;
     height: 10vh;
 
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 3em;
 
     color: white;
