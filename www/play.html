@@ -9,7 +9,6 @@
 <body>
 
 <div class="container">
-
     <div class="heading">
         <div class="characterCreation">
             Character Creation
@@ -23,14 +22,20 @@
 
         <div class="form">
             <form id="characterForm">
-                <input type="text" name="FirstName" value="John"><br>
+                <input type="text" onfocus="this.value=''" name="charName" value="John"><br>
             </form>
         </div>
     </div>
 
     <div class="footer">
-        <div class="button">
-            <input type="submit" value="Next" form="characterForm">
+        <div class="button one" onclick="location.href='index.html';" type="submit">
+            <p>Back</p>
+        </div>
+
+        <div class="button two">
+            <button name="submitCharForm" type="submit" form="characterForm">
+                Next
+            </button>
         </div>
     </div>
 </div>

@@ -12,11 +12,18 @@ html , body {
     height: 100vh;
 }
 
-.characterCreation {
+.heading {
     width: 100vw;
     height: 30vh;
+}
 
+.characterCreation {
+    text-align: center;
+    line-height: 30vh;
 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12em;
 }
 
 .input {
@@ -68,13 +75,14 @@ html , body {
     height: 30vh;
 
     display: grid;
+    grid-template-columns: repeat(2 , 1fr);
 
     align-items: center;
     justify-items: center;
 }
 
-.button [type=submit] {
-    width: 40vw;
+.button.one , .button [type=submit]{
+    width: 20vw;
     height: 10vh;
 
     font-family: 'IBM Plex Sans', sans-serif;
@@ -91,3 +99,9 @@ html , body {
 
     line-height: 10vh;
 }
+
+.button.one p {
+    margin: 0;
+    padding: 0;
+}
+
