@@ -1,3 +1,4 @@
+var myStorage = window.localStorage;
 var loadName = myStorage.getItem("character_name");
 
-window.alert(loadName);
+document.getElementById("textInput").value = loadName;
