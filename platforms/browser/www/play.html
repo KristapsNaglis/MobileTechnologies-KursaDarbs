@@ -29,8 +29,8 @@
         </div>
 
         <div class="form">
-            <form id="characterForm">
-                <input type="text" onfocus="this.value=''" name="charName" value="John"><br>
+            <form id="characterForm" onsubmit="var newName = document.getElementById('textInput').value; myStorage.setItem('character_name', newName);">
+                <input id="textInput" type="text" onfocus="this.value=''" name="charName" value=""><br>
             </form>
         </div>
     </div>
@@ -41,11 +41,17 @@
         </div>
 
         <div class="button two">
-            <button name="submitCharForm" type="submit" form="characterForm">
+            <button id="buttonSubmit"  name="submitCharForm" type="submit" form="characterForm">
                 Next
             </button>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src="js/hyj.js"></script>
+<script type="text/javascript" src="js/new.js"></script>
 </body>
 </html>
+
+
+
