@@ -1,0 +1,119 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html , body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+
+    background-color: black;
+
+    background-image:url("GameScreen.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading {
+    width: 100vw;
+    height: 30vh;
+}
+
+.characterCreation {
+    text-align: center;
+    line-height: 30vh;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+.input {
+    width: 100vw;
+    height: 40vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+
+    align-items: center;
+}
+
+.character {
+    text-align: right;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+
+.form [type=text] {
+    width: 95%;
+
+    margin-top: 3px;
+    padding: 0;
+
+    color: #787878;
+    background-color: #383838;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+
+    border: none;
+    border-bottom: 3px solid #787878;
+}
+
+.form [type=text]:focus {
+    color: #ffffff;
+    border-color: white;
+
+    outline: none;
+}
+
+.footer {
+    width: 100vw;
+    height: 30vh;
+
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+
+    align-items: center;
+    justify-items: center;
+}
+
+.button.one , .button [type=submit]{
+    width: 40vw;
+    height: 10vh;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+
+    color: white;
+
+    text-align: center;
+    text-justify: distribute-center-last;
+
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.11);
+
+    line-height: 10vh;
+}
+
+.button.one p {
+    margin: 0;
+    padding: 0;
+}
+

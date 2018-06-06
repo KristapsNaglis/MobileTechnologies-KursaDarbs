@@ -7,7 +7,9 @@ html , body {
     -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
     -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
 
-    background-color: #383838;
+    background-image:url("TitleScreen.jpg");/*your background image*/  
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
     color: white;
 
     margin: 0;
@@ -61,7 +63,7 @@ html , body {
     padding: 0;
 
     color: #787878;
-    background-color: #383838;
+    background-color: rgba(56, 56, 56, 0);
 
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;

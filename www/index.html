@@ -4,6 +4,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,700" rel="stylesheet">
     <meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/play.css"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="msapplication-tap-highlight" content="no"/>
     <meta name="viewport"
@@ -12,19 +13,24 @@
     <meta http-equiv="Content-Security-Policy"
           content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	
     <title>Kursa Darbs</title>
 </head>
 
 <body>
 
+<audio autoplay>
+  <source src="BloodyTears.mp3" type="audio/mp3">
+</audio> 
+
 <div class="heading">
     <div class="heading name">
-        Name of da game
+        Final Duel
     </div>
 </div>
 
 <div class="container">
-    <div class="button 1" onclick="location.href='play.html';">
+    <div class="button 1" onclick="location.href='game.html';">
         <p>Play</p>
     </div>
     <div class="button 2" onclick="location.href='options.html';">
@@ -32,13 +38,14 @@
             <p>Options</p>
         </div>
     </div>
-    <div class="button 3">
+    <div class="button 3" onclick="exitFromApp()">
         <p>Exit</p>
     </div>
 </div>
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/exitApp.js"></script>
 </body>
 
 </html>
